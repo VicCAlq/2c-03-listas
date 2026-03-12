@@ -141,9 +141,9 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-
+const frutas = ["maça", "banana", "laranja", "uva", "pêra", "manga" ]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
+export const resposta01 = frutas[1]
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
@@ -151,28 +151,33 @@ o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = false
+export const resposta02 = frutas[frutas.length - 1]
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = false
+frutas[3] - 1
+export const resposta03 = console.log[frutas]
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = false
+frutas[frutas.length] = "limão"
+export const resposta04 = console.log[frutas]
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta05 = false
+let frutaTemporaria = frutas[2]
+frutas[2] = frutas[5]
+frutas[5] = frutaTemporaria
+export const resposta05 = frutas
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -180,9 +185,9 @@ Crie um array (também com const ao invés de let) chamado "numeros" com os valo
 número no índice zero multiplicado pelo item no penúltimo índice.
 */
 // Array na linha abaixo
-
+const numeros = [7, 2, 4, 9, 8, 6, 1]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
+export const resposta06 = numeros[0] * numeros[5]
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
@@ -191,6 +196,14 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let ultimo = numeros[6]
+numeros[6] = numeros[5]
+numeros[5] = numeros[4]
+numeros[4] = numeros[3]
+numeros[3] = numeros[2]
+numeros[2] = numeros[1]
+numeros[1] = numeros[0]
+numeros[0] = ultimo
 export const resposta07 = false
 
 /* Questão 8
@@ -209,7 +222,10 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+numeros[1] =  numeros[3]
+numeros[3] = numeros[5]
+numeros[5] = numeros[1]
+export const resposta09 = console.log[numeros]
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
