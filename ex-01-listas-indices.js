@@ -136,6 +136,8 @@ Questões 01 a 10: Exercícios com manipulação direta de índices
 MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 7 questões
 */
 
+import { useDebugValue } from "react"
+
 /* Questão 1
 Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "laranja", 
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
@@ -143,7 +145,8 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
+const MinhaLista = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+export const resposta01 = fruta[2]
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
@@ -151,14 +154,18 @@ o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = false
+const MinhaLista = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+export const resposta02 = fruta[6]
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = false
+fruta[4] = uva
+frura[4] = fruta[4]
+fruta[4] = abacaxi
+export const resposta03 = const MinhaLista = ["maçã", "banana", "laranja", "abacaxi", "pêra", "manga"]
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
