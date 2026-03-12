@@ -159,7 +159,7 @@ a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova f
 */
 // Operações necessárias e resposta a partir da linha abaixo
 frutas[3] = "abacaxi"
-export const resposta03 = frutas[]
+export const resposta03 = frutas
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
@@ -167,7 +167,7 @@ envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 frutas[frutas.length] = "limão"
-export const resposta04 = frutas[]
+export const resposta04 = fruta
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
@@ -222,5 +222,5 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Nova lista abaixo
 const numeros2 = [numeros[numeros.length - 1], numeros[numeros.length - 2], numeros[numeros.length - 3]]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = numeros2[]
+export const resposta10 = numeros2
 
