@@ -202,7 +202,17 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
+let soma =
+numeros[0] +
+numeros[1] +
+numeros[2] +
+numeros[3] +
+numeros[4] +
+numeros[5] +
+numeros[6]
+
+numeros[numeros.length] = soma
+export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
