@@ -187,7 +187,7 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 const numeros = [7, 2, 4, 9, 8, 6, 1]
 // Operações necessárias e resposta a partir da linha abaixo
-resultado = numeros[0] * numeros[numeros.length - 2]
+let resultado = numeros[0] * numeros[numeros.length - 2]
 export const resposta06 = resultado
 
 /* Questão 7
