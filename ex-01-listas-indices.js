@@ -148,7 +148,7 @@ export const resposta01 = frutas[1]
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar
-o índice deste último item.
+o índice deste último item
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta02 = frutas.length - 1
