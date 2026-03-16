@@ -141,10 +141,10 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-const frutas = ["maçã", "banana", "laranja", 
+let frutas = ["maçã", "banana", "laranja", 
 "uva", "pêra", "manga"]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = frutas[1]
+;export const resposta01 = frutas[1]
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
@@ -175,7 +175,7 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const frutas = ["maçã", "banana", "laranja", 
+let frutas = ["maçã", "banana", "laranja", 
 "uva", "pêra", "manga"]
 let valorTemporario = frutas[2]
 frutas[2] = frutas[5]
