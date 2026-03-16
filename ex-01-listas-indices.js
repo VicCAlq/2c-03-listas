@@ -158,7 +158,7 @@ Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-frutas[3] - 1
+frutas[3] = "abacaxi"
 export const resposta03 = console.log[frutas]
 
 /* Questão 4
@@ -196,15 +196,15 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let ultimo = numeros[6]
-numeros[6] = numeros[5]
-numeros[5] = numeros[4]
-numeros[4] = numeros[3]
-numeros[3] = numeros[2]
-numeros[2] = numeros[1]
-numeros[1] = numeros[0]
-numeros[0] = ultimo
-export const resposta07 = false
+let ultimo = numeros[6];
+numeros[6] = numeros[5];
+numeros[5] = numeros[4];
+numeros[4] = numeros[3];
+numeros[3] = numeros[2];
+numeros[2] = numeros[1];
+numeros[1] = numeros[0];
+numeros[0] = ultimo;
+export const resposta07 = console.log(frutas);
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
