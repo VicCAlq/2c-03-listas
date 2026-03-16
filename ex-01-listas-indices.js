@@ -8,7 +8,7 @@ complexos como outras estruturas de dados.
 
 A primeira que veremos (novamente) são as "listas" ou "arrays". Se tratam de uma estrutura
 que permite agrupar um conjunto de valores atribuindo a cada um deles uma "posição", como
-a posição de alunos em uma fila.
+a posição de alunos em ma fila.
 
 Para criar uma lista, basta criar uma variável e atribuir a ela um conjunto de valores
 agrupados com colchetes:
