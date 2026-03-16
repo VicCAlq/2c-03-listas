@@ -151,7 +151,7 @@ o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = frutas.length - 1
+export const resposta02 = frutas[frutas.length - 1]
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
