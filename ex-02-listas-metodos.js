@@ -190,8 +190,11 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-
-export const resposta08 = false
+let animalTemp1 = animais.pop()
+let animalTemp2 = animais.pop()
+let animalTemp3 = animais.pop()
+animais.concat([animalTemp1, animalTemp2, animalTemp3])
+export const resposta08 = animais
 
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
@@ -199,7 +202,14 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+animais.reverse()
+animalTemp1 = animais.shift()
+animalTemp2 = animais.shift()
+animalTemp3 = animais.shift()
+animais.push(animalTemp1)
+animais.push(animalTemp2)
+animais.push(animalTemp3)
+export const resposta09 = animais
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
@@ -209,7 +219,8 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+animais.concat(["carcará", "morcego", "salmão"])
+export const resposta10 = animais
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
@@ -219,7 +230,11 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+let pedras = []
+pedras.concat(["quartzo", "basalto", "granito"].reverse())
+pedras.push("calcário", "mármore", "mica")
+pedras.reverse()
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -228,6 +243,7 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+
 export const resposta12 = false
 
 /* Questão 13
