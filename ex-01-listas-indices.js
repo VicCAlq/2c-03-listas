@@ -212,6 +212,7 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+
 export const resposta08 = false
 
 /* Questão 9
@@ -222,6 +223,7 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
+
 export const resposta09 = false
 
 /* Questão 10
@@ -233,5 +235,6 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Nova lista abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
+
 export const resposta10 = false
 
