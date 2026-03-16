@@ -167,7 +167,7 @@ envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 frutas[frutas.length] = "limão"
-export const resposta04 = fruta
+export const resposta04 = frutas
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
