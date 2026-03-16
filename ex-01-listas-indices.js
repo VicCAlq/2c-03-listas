@@ -155,7 +155,7 @@ export const resposta02 = frutas.length - 1
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
-a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
+a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta
 */
 // Operações necessárias e resposta a partir da linha abaixo
 frutas[3] = "abacaxi"
