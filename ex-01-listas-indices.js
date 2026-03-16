@@ -174,7 +174,7 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[frutas[2], frutas[frutas.length -1]] = [frutas[frutas.length -1], frutas[2]]
+;[frutas[2], frutas[frutas.length -1]] = [frutas[frutas.length -1], frutas[2]]
 export const resposta05 = frutas
 
 /* Questão 6
@@ -214,7 +214,7 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[numeros[1], numeros[3], numeros[5]] = [numeros[3], numeros[5], numeros[1]]
+;[numeros[1], numeros[3], numeros[5]] = [numeros[3], numeros[5], numeros[1]]
 export const resposta09 = numeros
 
 /* Questão 10
