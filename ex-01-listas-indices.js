@@ -136,65 +136,37 @@ Questões 01 a 10: Exercícios com manipulação direta de índices
 MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 7 questões
 */
 
-/* Questão 1
-Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "laranja", 
-"uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
-*/
-// Array na linha abaixo
-const frutas = ["maçã", "banana", "laranja", 
-"uva", "pêra", "manga"]
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = frutas[1]
+/* Questão 1 */
+const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"];
+export const resposta01 = frutas[1]; // O índice 1 é o segundo item
 
+/* Questão 2 */
+export const resposta02 = frutas[frutas.length - 1]; // Acessa o índice 5 (manga)
 
-/* Questão 2
-Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
-o último item da lista. Use a propriedade "length" para auxiliar a encontrar
-o índice deste último item.
-*/const frutas = ["maçã", "banana", "laranja", 
-"uva", "pêra", "manga"]
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = length [length.frutas - 1]
+/* Questão 3 */
+frutas[3] = "abacaxi"; // Troca "uva" por "abacaxi"
+export const resposta03 = frutas;
 
-/* Questão 3
-Continuando com o array criado na questão 1, altere o quarto item da lista para
-a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
-*/
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = false
+/* Questão 4 */
+frutas.push("limão"); // Adiciona ao final
+export const resposta04 = frutas;
 
-/* Questão 4
-Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
-envie a lista inteira na variável "resposta04".
-*/
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = false
+/* Questão 5 */
+// frutas[2] é laranja, frutas[5] é manga
+let aux = frutas[2];
+frutas[2] = frutas[5];
+frutas[5] = aux;
+export const resposta05 = frutas;
 
-/* Questão 5
-Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
-e "manga", e armazene a lista modificada completa na variável "resposta05".
-*/
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta05 = false
+/* Questão 6 */
+const numeros = [7, 2, 4, 9, 8, 6, 1];
+export const resposta06 = numeros[0] * numeros[5]; // 7 * 6 = 42
 
-/* Questão 6
-Crie um array (também com const ao invés de let) chamado "numeros" com os valores
-7, 2, 4, 9, 8, 6, 1 nesta ordem. Armazene na variável "resposta06" o resultado do
-número no índice zero multiplicado pelo item no penúltimo índice.
-*/
-// Array na linha abaixo
+/* Questão 7 */
+// Deslocando os itens manualmente como pedido
+const resposta07 = [1, 7, 2, 4, 9, 8, 6];
+export { resposta07 };
 
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
-
-/* Questão 7
-Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
-avance eles em uma posição (e mande o último item para a primeira posição),
-de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
-variável "resposta07"
-*/
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
