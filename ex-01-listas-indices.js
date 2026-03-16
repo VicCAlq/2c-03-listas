@@ -141,8 +141,9 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 // Operações necessárias e resposta a partir da linha abaixo
+const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+
 export const resposta01 = frutas[1]
 
 /* Questão 2
@@ -225,17 +226,17 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let numrerosteporaria = numeros[2]
+let temp = numeros[2]
 numeros[2] = numeros[4]
-numeros[4] = numerosteporaria
+numeros[4] = temp
 
-let numrerosteporaria = numeros[4]
+let temp1 = numeros[4]
 numeros[4] = numeros[6]
-numeros[6] = numerosteporaria
+numeros[6] = temp1
 
-let numrerosteporaria = numeros[6]
+let temp2 = numeros[6]
 numeros[6] = numeros[2]
-numeros[2] = numerosteporaria
+numeros[2] = temp2
 
 export const resposta09 = numeros 
 

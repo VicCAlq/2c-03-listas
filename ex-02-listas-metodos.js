@@ -114,7 +114,7 @@ envie a lista com as profissões adicionadas na resposta01.
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-const profissoes = []
+const profissoes = [];
 profissoes.push("programador", "designer", "engenheiro", "veterinário", "administrador")
 
 export const resposta01 = profissoes
@@ -156,7 +156,7 @@ método "concat" na lista de profissões para adicionar esta nova lista no final
 da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const profissoesRemovidas = []
+const profissoesRemovidas = [];
 profissoesRemovidas.push(remover, primeiraProfissão)
 
 const unirProfissoes = profissoes.concat(profissoesRemovidas);
@@ -182,9 +182,9 @@ lista "animais" para juntar o conteúdo das listas "vertebrado" e "invertebrado"
 dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const vertebrados = []
-const invertebrados = []
-const animais = []
+const vertebrados = [];
+const invertebrados = [];
+
 
 vertebrados.push("elefante","leopardo","porco-espinho")
 invertebrados.push("polvo","formiga","caranguejo")
@@ -234,14 +234,14 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const novosAnimais = []
+const novosAnimais = [];
 novosAnimais.push("carcará", "morcego", "salmão");
 
 const unirAnimais = animais.concat(novosAnimais);
 
 unirAnimais.reverse();
 
-maisAnimais = []
+maisAnimais = [];
 maisAnimais.push( "lesma", "borboleta", "ostra");
 
 uniaoDeAnimais = unirAnimais.concat(maisAnimais);
@@ -256,7 +256,15 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+const pedras = ["quartzo", "basalto", "granito"];
+
+pedras.reverse();
+
+pedras.push("calcário", "mármore", "mica")
+
+pedras.reverse();
+
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -265,7 +273,13 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+pedras.unshift( "jade", "obsidiana", "zircônio")
+
+const pedrasNovas = ["topázio", "lazurita", "ônix"];
+
+unirPedras = pedras.concat(pedrasNovas);
+
+export const resposta12 = unirPedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
@@ -273,12 +287,28 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+let primero = pedras.shift();
+let segundo = pedras.shift();
+let terceira = pedras.shift();
+
+pedras.push(primero,segundo,terceira);
+
+export const resposta13 = pedras
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+let a = pedras.pop();
+let b = pedras.pop();
+let c = pedras.pop();
+let d = pedras.pop();
+let e = pedras.pop();
+let f = pedras.pop();
 
+const novaLista= [];
+
+navalista.push(a,b,c,d,e,f);
+
+export const resposta14 = novaLista
