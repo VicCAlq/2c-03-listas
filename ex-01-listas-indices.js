@@ -222,8 +222,13 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let sss = numeros[3]
+numeros[3] = numeros[1]
+numeros[5] = sss
+numeros[1] = numeros[5]
 
-export const resposta09 = false
+
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -232,7 +237,8 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-
+const listanova = [1, 6, 8]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+
+export const resposta10 = listanova
 
