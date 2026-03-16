@@ -106,7 +106,7 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 10 questões
 */
 
 /* Questão 1
-Usando const ao invés de let, crie uma lista vazia chamada profissoes. Usando o
+Usando let, crie uma lista vazia chamada profissoes. Usando o
 método push, adicione nesta lista as profissões "programador(a)", "designer",
 "engenheiro(a)", "veterinário(a)" e "administrador(a)". Após adicionar os itens,
 envie a lista com as profissões adicionadas na resposta01.
@@ -215,7 +215,7 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 export const resposta12 = false
 
 /* Questão 13
-Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
+Seguindo com a lista de pedras, use os métodos shift e push para mover os três
 primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */

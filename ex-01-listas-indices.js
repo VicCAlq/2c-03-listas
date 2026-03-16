@@ -188,7 +188,7 @@ const numeros = [7, 2, 4, 9, 8, 6, 1]
 export const resposta06 = numeros[0] * numeros[numeros.length - 2]
 
 /* Questão 7
-Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
+Seguindo com a lista criada na questão 6, utilizando os índices de cada item,
 avance eles em uma posição (e mande o último item para a primeira posição),
 de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
@@ -201,19 +201,20 @@ for (let i = numeros.length - 1; i >= 0; i--)
 export const resposta07 = Array.from(frutas)
 
 /* Questão 8
-Continuando com a lista da questão 7, adicione no final da lista o resultado
+Continuando com a lista da questão 6, adicione no final da lista o resultado
 da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let soma = numeros[0]
-for (let j = 1; j < numeros.length; j++)
+let soma = 0
+for (let j = 0; j < numeros.length; j++)
     soma += numeros[j]
 
-export const resposta08 = soma
+numeros = [...numeros, soma]
+export const resposta08 = Array.from(numeros)
 
 /* Questão 9
-Ainda com a lista da questão 7, mude:
+Ainda com a lista da questão 6, mude:
 - O segundo item para a quarta posição
 - O quarto item para a sexta posição
 - O sexto item para a segunda posição
@@ -221,18 +222,18 @@ E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
 const numeroQ = numeros[5]
-for (let k = numeros.length - 2; k > 0; k -= 2)
-    numeros[k] = k != 5 ? numeros[k - 2] : numeroQ
-
+for (let k = numeros.length - 2; k > 0; k -= 2) {
+    numeros[k] = k > 1 ? numeros[k - 2] : numeroQ
+}
 export const resposta09 = Array.from(numeros)
 
 /* Questão 10
-Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
+Finalizando com a lista da questão 6, crie uma nova lista com três itens onde:
 - O primeiro item da nova lista é o último da anterior
 - O segundo item da nova lista é o penúltimo da anterior
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-
+const novosNumeros = [numeros[numeros.length - 1], numeros[numeros.length - 2], numeros[numeros.length - 3]]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+export const resposta10 = Array.from(novosNumeros)
