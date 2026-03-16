@@ -235,9 +235,8 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-const novaLista = [numeros[6], numeros[5], numeros[4]];
+const novaLista = [numeros[numeros.length - 1], numeros[numeros.length - 2], numeros[numeros.length - 3]];
 // Operações necessárias e resposta a partir da linha abaixo
-numeros[numeros.length] = novaLista[0];
 
-export const resposta10 = false;
+export const resposta10 = novaLista;
 
