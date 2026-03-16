@@ -180,7 +180,8 @@ const vertebrados = []
 vertebrados.push("elefante", "leopardo", "porco-espinho")
 const invertebrados = []
 invertebrados.push("polvo", "formiga", "caranguejo")
-const animais = [].concat(vertebrados, invertebrados)
+const animais = []
+animais.concat(vertebrados, invertebrados)
 export const resposta07 = animais
 
 /* Questão 8
