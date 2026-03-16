@@ -140,79 +140,105 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 7 questões
 Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "laranja", 
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
-const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"];
-export const resposta01 = frutas[1];
+// Array na linha abaixo
+// Operações necessárias e resposta a partir da linha abaixo
+const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+
+export const resposta01 = frutas[1]
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
-export const resposta02 = frutas[frutas.length - 1]; 
+// Operações necessárias e resposta a partir da linha abaixo
+export const resposta02 = frutas[frutas.length - 1]
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
-frutas[3] = "abacaxi";
-export const resposta03 = frutas;
+// Operações necessárias e resposta a partir da linha abaixo
+frutas[3] = "abacaxi"
+export const resposta03 = frutas
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
 */
-frutas[frutas.length] = "limão";
-export const resposta04 = frutas; 
+// Operações necessárias e resposta a partir da linha abaixo
+frutas[frutas.length] = 'limao'
+export const resposta04 = frutas
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
-// "laranja" está no índice 2, "manga" está no índice 5
-[frutas[2], frutas[5]] = [frutas[5], frutas[2]];
-export const resposta05 = frutas;
+// Operações necessárias e resposta a partir da linha abaixo
+let frutateporaria = frutas[2]
+frutas[2] = frutas[5]
+frutas[5] = frutateporaria
+export const resposta05 = frutas
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
 7, 2, 4, 9, 8, 6, 1 nesta ordem. Armazene na variável "resposta06" o resultado do
 número no índice zero multiplicado pelo item no penúltimo índice.
 */
-const numeros = [7, 2, 4, 9, 8, 6, 1];
-export const resposta06 = numeros[0] * numeros[numeros.length - 2];
+// Array na linha abaixo
+const numeros = [7, 2, 4, 9, 8, 6, 1]
+// Operações necessárias e resposta a partir da linha abaixo
+resultado = numeros[0] * numeros[numeros.length - 2]
+export const resposta06 = numeros
 
 /* Questão 7
-Seguindo com a lista criada na questão 6, utilizando os índices de cada item,
+Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
 avance eles em uma posição (e mande o último item para a primeira posição),
 de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
-const listaRotacionada = [numeros[6], numeros[0], numeros[1], numeros[2], numeros[3], numeros[4], numeros[5]];
-export const resposta07 = listaRotacionada;
+// Operações necessárias e resposta a partir da linha abaixo
+let ultimoNumero = numeros[6]
+numeros[6] = numeros[5]
+numeros[5] = numeros[4]
+numeros[4] = numeros[3]
+numeros[3] = numeros[2]
+numeros[2] = numeros[1]
+numeros[1] = numeros[0]
+numeros[0] = ultimoNumero
+
+export const resposta07 = numeros
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
 da soma de todos os números anteriores da lista. Retorne a lista completa na
-variável "resposta08". É proibido usar métodos de listas e funções.
+variável "resultado08". É proibido usar métodos de listas e funções.
 */
-const somaSete = listaRotacionada[0] + listaRotacionada[1] + listaRotacionada[2] + listaRotacionada[3] + listaRotacionada[4] + listaRotacionada[5] + listaRotacionada[6];
-listaRotacionada[listaRotacionada.length] = somaSete;
-export const resposta08 = listaRotacionada;
+// Operações necessárias e resposta a partir da linha abaixo
+numeros[length.numeros] = numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6]
+export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
 - O segundo item para a quarta posição
 - O quarto item para a sexta posição
 - O sexto item para a segunda posição
-E retorne a lista completa na variável "resposta09"
+E retorne a lista completa na variável "resultado09"
 */
-let v2 = listaRotacionada[1];
-let v4 = listaRotacionada[3];
-let v6 = listaRotacionada[5];
+// Operações necessárias e resposta a partir da linha abaixo
+let temp = numeros[2]
+numeros[2] = numeros[4]
+numeros[4] = temp
 
-listaRotacionada[3] = v2;
-listaRotacionada[5] = v4;
-listaRotacionada[1] = v6;
-export const resposta09 = listaRotacionada;
+let temp1 = numeros[4]
+numeros[4] = numeros[6]
+numeros[6] = temp1
+
+let temp2 = numeros[6]
+numeros[6] = numeros[2]
+numeros[2] = temp2
+
+export const resposta09 = numeros 
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -220,9 +246,12 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O segundo item da nova lista é o penúltimo da anterior
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
-const novaListaFinal = [
-    listaRotacionada[listaRotacionada.length - 1],
-    listaRotacionada[listaRotacionada.length - 2],
-    listaRotacionada[listaRotacionada.length - 3]
-];
-export const resposta10 = novaListaFinal;
+// Nova lista abaixo
+
+// Operações necessárias e resposta a partir da linha abaixo
+
+const novosNumeros = [1,2,3]
+novosNumeros[0] = numeros[-1]
+novosNumeros[1] = numeros[-2]
+novosNumeros[2] = numeros[-3]
+export const resposta10 = novosNumeros
