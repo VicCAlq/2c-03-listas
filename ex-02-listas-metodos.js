@@ -181,7 +181,7 @@ const invertebrados = [];
 const animais = [];
 vertebrados.push("elefante", "leopardo", "porco-espinho");
 invertebrados.push("polvo", "formiga", "caranguejo");
-const animais = vertebrados.concat(invertebrados);
+animais = vertebrados.concat(invertebrados);
 export const resposta07 = animais;
 
 /* Questão 8
@@ -215,7 +215,7 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-animais.concat("carcará", "morcego" e "salmão");
+animais.concat("carcará", "morcego", "salmão");
 animais.reverse();
 animais.concat("lesma", "borboleta", "ostra");
 export const resposta10 = animais;
@@ -242,7 +242,9 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+pedras.unshift("jade", "obsidiana", "zircônio");
+pedras.concat("topázio", "lazurita", "ônix");
+export const resposta12 = pedras;
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
@@ -250,12 +252,25 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+const primeiraPedras = pedras.shift();
+pedras.push(novasPedras);
+const segundaPedra = pedras.shift();
+pedras.push(segundaPedra);
+const terceiraPedra = pedras.shift();
+pedras.push(terceiraPedra);
+export const resposta13 = pedras;
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+const itemUm = pedras.pop();
+const itemDois = pedras.pop();
+const itemTres = pedras.pop();
+const itemQuatro = pedras.pop();
+const itemCinco = pedras.pop();
+const itemSeis = pedras.pop();
+const listPedrasNovas = [itemUm, itemDois, itemTres, itemQuatro, itemCinco, itemSeis];
+export const resposta14 = listPedrasNovas;
 
