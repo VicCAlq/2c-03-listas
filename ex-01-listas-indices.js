@@ -144,7 +144,6 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = frutas[1]
-
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar
@@ -166,7 +165,7 @@ Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, 
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-frutas[frutas.length] = 'limao'
+frutas[frutas.length] = "limão"
 export const resposta04 = frutas
 
 /* Questão 5
@@ -174,9 +173,9 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let frutateporaria = frutas[2]
+let frutaTemporaria = frutas[2]
 frutas[2] = frutas[5]
-frutas[5] = frutateporaria
+frutas[5] = frutaTemporaria
 export const resposta05 = frutas
 
 /* Questão 6
@@ -187,8 +186,7 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 const numeros = [7, 2, 4, 9, 8, 6, 1]
 // Operações necessárias e resposta a partir da linha abaixo
-let resultado = numeros[0] * numeros[numeros.length - 2]
-export const resposta06 = resultado
+export const resposta06 = numeros[0] * numeros[5]
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
@@ -197,17 +195,15 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let ultimoNumero = numeros[6]
+let ultimo = numeros[6]
 numeros[6] = numeros[5]
 numeros[5] = numeros[4]
 numeros[4] = numeros[3]
 numeros[3] = numeros[2]
 numeros[2] = numeros[1]
 numeros[1] = numeros[0]
-numeros[0] = ultimoNumero
-
+numeros[0] = ultimo
 export const resposta07 = numeros
-
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
 da soma de todos os números anteriores da lista. Retorne a lista completa na
@@ -226,12 +222,12 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let socorro1 = numeros[1]
-let socorro2 = numeros[3]
-let socorro3 = numeros[5]
-numeros[3] = socorro1
-numeros[5] = socorro2
-numeros[1] = socorro3
+let listMaster1 = numeros[1]
+let listMaster2 = numeros[3]
+let listMaster3 = numeros[5]
+numeros[3] = listMaster1
+numeros[5] = listMaster2
+numeros[1] = listMaster3
 
 export const resposta09 = numeros
 
@@ -244,11 +240,10 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Nova lista abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-const listaSuperTop3000 = [
+const listaFinal = [
   numeros[numeros.length - 1],
   numeros[numeros.length - 2],
   numeros[numeros.length - 3]
 ]
-export const resposta10 = listaSuperTop3000
+export const resposta10 = listaFinal
 
-// top ein
