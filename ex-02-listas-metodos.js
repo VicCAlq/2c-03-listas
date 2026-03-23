@@ -113,8 +113,8 @@ envie a lista com as profissões adicionadas na resposta01.
 */
 // Array na linha abaixo
 let profissoes = []
-profissoes.push(["programador(a)", "designer",
-"engenheiro(a)", "veterinário(a)", "administrador(a)"])
+profissoes.push("programador(a)", "designer",
+"engenheiro(a)", "veterinário(a)", "administrador(a)")
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = profissoes
 
@@ -153,7 +153,7 @@ da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let profissoesRemovidas = [profissaoExcluida, profissaoExcluida2]
-profissoes.concat(profissoesRemovidas)
+profissoes = profissoes.concat(profissoesRemovidas)
 export const resposta05 = profissoes
 
 /* Questão 6
@@ -180,7 +180,7 @@ let animais = []
 
 vertebrados.push("elefante", "leopardo", "porco-espinho")
 invertebrados.push("polvo", "formiga", "caranguejo")
-animais.concat(vertebrados, invertebrados)
+animais = animais.concat(vertebrados, invertebrados)
 export const resposta07 = animais
 
 /* Questão 8
@@ -193,7 +193,10 @@ Envie a lista animais modificada na resposta08.
 let animalTemp1 = animais.pop()
 let animalTemp2 = animais.pop()
 let animalTemp3 = animais.pop()
-animais.concat([animalTemp1, animalTemp2, animalTemp3])
+animais.unshift(animalTemp3)
+animais.unshift(animalTemp2)
+animais.unshift(animalTemp1)
+animais = animais.concat([animalTemp1, animalTemp2, animalTemp3])
 export const resposta08 = animais
 
 /* Questão 9
@@ -219,8 +222,11 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-animais.concat(["carcará", "morcego", "salmão"])
-export const resposta10 = animais
+let novaLista = animais.concat(["carcará", "morcego", "salmão"])
+
+novaLista.reverse()
+
+export const resposta10 = novaLista.concat(["lesma", "borboleta", "ostra"])
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
@@ -230,11 +236,17 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let pedras = []
-pedras.concat(["quartzo", "basalto", "granito"].reverse())
-pedras.push("calcário", "mármore", "mica")
-pedras.reverse()
-export const resposta11 = pedras
+const pedras = []
+
+let listaTemp = pedras.concat(["quartzo", "basalto", "granito"])
+
+listaTemp.reverse()
+
+listaTemp.push("calcário", "mármore", "mica")
+
+listaTemp.reverse()
+
+export const resposta11 = listaTemp
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -243,8 +255,13 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let listaTemp = ["quartzo", "basalto", "granito", "calcário", "mármore", "mica"]
 
-export const resposta12 = false
+listaTemp.unshift("jade")
+listaTemp.unshift("obsidiana")
+listaTemp.unshift("zircônio")
+
+export const resposta12 = listaTemp.concat(["topázio", "lazurita", "ônix"])
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
@@ -252,12 +269,35 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+let listaPedras = ["zircônio","obsidiana","jade","quartzo","basalto","granito","calcário","mármore","mica","topázio","lazurita","ônix"]
+
+let p1 = listaPedras.shift()
+let p2 = listaPedras.shift()
+let p3 = listaPedras.shift()
+
+listaPedras.push(p1)
+listaPedras.push(p2)
+listaPedras.push(p3)
+
+listaPedras.reverse()
+
+export const resposta13 = listaPedras
+
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+let pedras = ["jade","quartzo","basalto","granito","calcário","mármore","mica","topázio","lazurita","ônix","zircônio","obsidiana"]
 
+let removidasPedras = []
+
+removidasPedras.push(pedras.pop())
+removidasPedras.push(pedras.pop())
+removidasPedras.push(pedras.pop())
+removidasPedras.push(pedras.pop())
+removidasPedras.push(pedras.pop())
+removidasPedras.push(pedras.pop())
+
+export const resposta14 = removidasPedras
