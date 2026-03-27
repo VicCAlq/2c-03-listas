@@ -141,7 +141,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+let frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = frutas[1]
 
@@ -183,7 +183,7 @@ Crie um array (também com const ao invés de let) chamado "numeros" com os valo
 número no índice zero multiplicado pelo item no penúltimo índice.
 */
 // Array na linha abaixo
-const numeros = [7, 2, 4, 9, 8, 6, 1]
+let numeros = [7, 2, 4, 9, 8, 6, 1]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta06 = numeros[0] * numeros[numeros.length - 2]
 
