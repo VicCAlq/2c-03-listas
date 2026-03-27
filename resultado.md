@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Cannot find package 'react' imported from '/home/vicmca/CodeProjects/School/materiais/atv_pub/2c-03-listas/ex-01-listas-indices.js' |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Cannot find package 'react' imported from '/home/vmca/Code/school/atv_pub/2c-03-listas/ex-01-listas-indices.js' |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
