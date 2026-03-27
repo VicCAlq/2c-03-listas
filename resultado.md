@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Identifier 'listaTemp' has already been declared |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | listaTemp is not defined |
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
