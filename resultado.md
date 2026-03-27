@@ -1,18 +1,13 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: Expected ',', got 'ident'
-At file: /ex-01-listas-indices.js:240:0 |
-|  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  4 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  5 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  6 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  7 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  8 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  9 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 13 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 14 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Assignment to constant variable. |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
