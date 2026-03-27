@@ -236,9 +236,9 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const pedras = []
+let pedras = []
 
-let listaTemp = pedras.concat(["quartzo", "basalto", "granito"])
+listaTemp = pedras.concat(["quartzo", "basalto", "granito"])
 
 listaTemp.reverse()
 
@@ -255,7 +255,7 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let listaTemp = ["quartzo", "basalto", "granito", "calcário", "mármore", "mica"]
+listaTemp = ["quartzo", "basalto", "granito", "calcário", "mármore", "mica"]
 
 listaTemp.unshift("jade")
 listaTemp.unshift("obsidiana")
@@ -289,7 +289,7 @@ Finalizando com a lista de pedras, use o método pop para remover os 6 itens fin
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let pedras = ["jade","quartzo","basalto","granito","calcário","mármore","mica","topázio","lazurita","ônix","zircônio","obsidiana"]
+pedras = ["jade","quartzo","basalto","granito","calcário","mármore","mica","topázio","lazurita","ônix","zircônio","obsidiana"]
 
 let removidasPedras = []
 
