@@ -6,7 +6,7 @@
 |  4 | Ex 01 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
 |  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  7 | Ex 01 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
 |  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  9 | Ex 01 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
 | 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
