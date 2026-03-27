@@ -1,26 +1,26 @@
-| Questão | Exercício | Entregue | Correto |
-|---------|-----------|----------|---------|
-|  1 | Ex 01 | ❌ | ❌ |
-|  2 | Ex 01 | ❌ | ❌ |
-|  3 | Ex 01 | ❌ | ❌ |
-|  4 | Ex 01 | ❌ | ❌ |
-|  5 | Ex 01 | ❌ | ❌ |
-|  6 | Ex 01 | ❌ | ❌ |
-|  7 | Ex 01 | ❌ | ❌ |
-|  8 | Ex 01 | ❌ | ❌ |
-|  9 | Ex 01 | ❌ | ❌ |
-| 10 | Ex 01 | ❌ | ❌ |
-|  1 | Ex 02 | ❌ | ❌ |
-|  2 | Ex 02 | ❌ | ❌ |
-|  3 | Ex 02 | ❌ | ❌ |
-|  4 | Ex 02 | ❌ | ❌ |
-|  5 | Ex 02 | ❌ | ❌ |
-|  6 | Ex 02 | ❌ | ❌ |
-|  7 | Ex 02 | ❌ | ❌ |
-|  8 | Ex 02 | ❌ | ❌ |
-|  9 | Ex 02 | ❌ | ❌ |
-| 10 | Ex 02 | ❌ | ❌ |
-| 11 | Ex 02 | ❌ | ❌ |
-| 12 | Ex 02 | ❌ | ❌ |
-| 13 | Ex 02 | ❌ | ❌ |
-| 14 | Ex 02 | ❌ | ❌ |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
+|---------|-----------|----------|---------|------------------|
+|  1 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  2 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  3 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  4 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  5 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  6 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  4 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  5 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  6 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  7 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  8 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  9 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 13 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 14 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
