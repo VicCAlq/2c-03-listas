@@ -1,3 +1,6 @@
+Data de atualização: Dia 29/03/2026 às 20:00:19
+ 
+
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Assignment to constant variable. |
