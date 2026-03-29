@@ -1,3 +1,6 @@
+Data de atualização: Dia 29/03/2026 às 19:57:26
+ 
+
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | listaTemp is not defined |
