@@ -1,8 +1,29 @@
-Data de atualização: Dia 29/03/2026 às 20:05:19
+Data de atualização: Dia 30/03/2026 às 17:55:32
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: Expected ';', '}' or <eof>
-At file: /ex-01-listas-indices.js:2:2 |
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension. |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 11 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 12 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 13 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 14 | Ex 02 | ✅ | ✅ | Nenhum erro |
