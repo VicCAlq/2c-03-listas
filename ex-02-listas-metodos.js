@@ -103,100 +103,152 @@ listaOriginal.reverse()
 Questões 01 a 14: Exercícios com métodos de listas
 
 MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 10 questões
+/*
+Questão 1
 */
+const profissoes = []
 
-// Questão 1
-const profissoes = [];
-profissoes.push("programador(a)", "designer", "engenheiro(a)", "veterinário(a)", "administrador(a)");
-export const resposta01 = profissoes;
+profissoes.push(
+"programador(a)",
+"designer",
+"engenheiro(a)",
+"veterinário(a)",
+"administrador(a)"
+)
 
-// Questão 2
-const profissaoRemovidaPop = profissoes.pop();
-export const resposta02 = profissaoRemovidaPop;
+export const resposta01 = profissoes
 
-// Questão 3
-profissoes.unshift("músico(a)");
-export const resposta03 = profissoes;
-
-// Questão 4
-const profissaoRemovidaShift = profissoes.shift();
-export const resposta04 = profissaoRemovidaShift;
-
-// Questão 5
-const removidas = [profissaoRemovidaPop, profissaoRemovidaShift];
-const profissoesConcatenadas = profissoes.concat(removidas);
-// Atualizando a referência para as próximas questões conforme o enunciado sugere continuidade
-profissoes.splice(0, profissoes.length, ...profissoesConcatenadas); 
-export const resposta05 = profissoes;
-
-// Questão 6
-profissoes.reverse();
-export const resposta06 = profissoes;
-
-// Questão 7
-const vertebrados = [];
-const invertebrados = [];
-const animais = [];
-vertebrados.push("elefante", "leopardo", "porco-espinho");
-invertebrados.push("polvo", "formiga", "caranguejo");
-const listaAnimais = animais.concat(vertebrados, invertebrados);
-export const resposta07 = listaAnimais;
-
-// Questão 8 (Invertebrados na frente: polvo, formiga, caranguejo, elefante, leopardo, porco-espinho)
-// Para mover os 3 últimos para a frente usando pop/unshift:
-listaAnimais.unshift(listaAnimais.pop()); // caranguejo
-listaAnimais.unshift(listaAnimais.pop()); // formiga
-listaAnimais.unshift(listaAnimais.pop()); // polvo
-export const resposta08 = listaAnimais;
-
-// Questão 9
-listaAnimais.reverse(); 
-// Move 3 da frente para o final
-listaAnimais.push(listaAnimais.shift());
-listaAnimais.push(listaAnimais.shift());
-listaAnimais.push(listaAnimais.shift());
-export const resposta09 = listaAnimais;
-
-// Questão 10
-const animaisNovos = listaAnimais.concat("carcará", "morcego", "salmão");
-animaisNovos.reverse();
-const listaFinal = animaisNovos.concat("lesma", "borboleta", "ostra");
-export const resposta10 = listaFinal;
+/*
+Questão 2
 */
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+const removidoPop = profissoes.pop()
 
-/* Questão 11
-Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
-para adicionar os itens "quartzo", "basalto" e "granito". Use o método
-reverse nessa lista, e após isso use o método push para adicionar os itens
-"calcário", "mármore" e "mica". Use o método reverse novamente, e envie a lista
-final na resposta11.
+export const resposta02 = removidoPop
+
+/*
+Questão 3
 */
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+profissoes.unshift("músico(a)")
 
-/* Questão 12
-Continuando com a lista criada na questão 11, use o método unshift para adicionar
-os itens "jade", "obsidiana" e "zircônio", um de cada vez, na ordem informada na 
-questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" e 
-"ônix" ao final desta lista, e retorne-a na resposta12.
+export const resposta03 = profissoes
+
+/*
+Questão 4
 */
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+const removidoShift = profissoes.shift()
 
-/* Questão 13
-Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
-primeiros itens para o final da lista. Após isso, aplique o método reverse, e
-envie a lista na resposta13.
+export const resposta04 = removidoShift
+
+/*
+Questão 5
 */
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+const removidas = [removidoPop, removidoShift]
 
-/* Questão 14
-Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
-da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
+const profissaoConcat = profissoes.concat(removidas)
+
+export const resposta05 = profissaoConcat
+
+/*
+Questão 6
 */
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+profissoes.reverse()
 
+export const resposta06 = profissoes
+
+/*
+Questão 7
+*/
+const vertebrados = []
+const invertebrados = []
+const animais = []
+
+vertebrados.push("elefante", "leopardo", "porco-espinho")
+invertebrados.push("polvo", "formiga", "caranguejo")
+
+const listaAnimais = animais.concat(vertebrados, invertebrados)
+
+animais.push(...listaAnimais)
+
+export const resposta07 = animais
+
+/*
+Questão 8
+*/
+animais.unshift(animais.pop())
+animais.unshift(animais.pop())
+animais.unshift(animais.pop())
+
+export const resposta08 = animais
+
+/*
+Questão 9
+*/
+animais.reverse()
+
+animais.push(animais.shift())
+animais.push(animais.shift())
+animais.push(animais.shift())
+
+export const resposta09 = animais
+
+/*
+Questão 10
+*/
+let novosAnimais = animais.concat(["carcará", "morcego", "salmão"])
+
+novosAnimais.reverse()
+
+novosAnimais = novosAnimais.concat(["lesma", "borboleta", "ostra"])
+
+export const resposta10 = novosAnimais
+
+/*
+Questão 11
+*/
+const pedras = []
+
+let pedrasLista = pedras.concat(["quartzo", "basalto", "granito"])
+
+pedrasLista.reverse()
+
+pedrasLista.push("calcário", "mármore", "mica")
+
+pedrasLista.reverse()
+
+export const resposta11 = pedrasLista
+
+/*
+Questão 12
+*/
+pedrasLista.unshift("jade")
+pedrasLista.unshift("obsidiana")
+pedrasLista.unshift("zircônio")
+
+pedrasLista = pedrasLista.concat(["topázio", "lazurita", "ônix"])
+
+export const resposta12 = pedrasLista
+
+/*
+Questão 13
+*/
+pedrasLista.push(pedrasLista.shift())
+pedrasLista.push(pedrasLista.shift())
+pedrasLista.push(pedrasLista.shift())
+
+pedrasLista.reverse()
+
+export const resposta13 = pedrasLista
+
+/*
+Questão 14
+*/
+const removidos = []
+
+removidos.push(pedrasLista.pop())
+removidos.push(pedrasLista.pop())
+removidos.push(pedrasLista.pop())
+removidos.push(pedrasLista.pop())
+removidos.push(pedrasLista.pop())
+removidos.push(pedrasLista.pop())
+
+export const resposta14 = removidos

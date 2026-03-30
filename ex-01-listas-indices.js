@@ -1,6 +1,3 @@
-
-A sintaxe para isso é utilizar o nome da lista seguido do número correspondente
-a posição desejada entre colchetes. Exemplo:
 /*
 Assunto 01 - Listas e índices
 
@@ -137,67 +134,100 @@ estes valores, mas isso fica para uma próxima lição.
 Questões 01 a 10: Exercícios com manipulação direta de índices
 
 MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 7 questões
+/*
+Questão 1
 */
+const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+export const resposta01 = frutas[1]
 
-/* Questão 1 */
-const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"];
-export const resposta01 = frutas[1]; // O índice 1 é o segundo item
-
-/* Questão 2 */
-export const resposta02 = frutas[frutas.length - 1] 
-
-/* Questão 3 */
-frutas[3] = "abacaxi"; // Troca "uva" por "abacaxi"
-export const resposta03 = frutas;
-
-/* Questão 4 */
-frutas.push("limão"); // Adiciona ao final
-export const resposta04 = frutas;
-
-/* Questão 5 */
-// frutas[2] é laranja, frutas[5] é manga
-let aux = frutas[2];
-frutas[2] = frutas[5];
-frutas[5] = aux;
-export const resposta05 = frutas;
-
-/* Questão 6 */
-const numeros = [7, 2, 4, 9, 8, 6, 1];
-export const resposta06 = numeros[0] * numeros[5]; // 7 * 6 = 42
-
-/* Questão 7 */
-// Deslocando os itens manualmente como pedido
-const resposta07 = [1, 7, 2, 4, 9, 8, 6];
-export { resposta07 };
-
-
-/* Questão 8
-Continuando com a lista da questão 7, adicione no final da lista o resultado
-da soma de todos os números anteriores da lista. Retorne a lista completa na
-variável "resultado08". É proibido usar métodos de listas e funções.
+/*
+Questão 2
 */
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
+export const resposta02 = frutas[frutas.length - 1]
 
-/* Questão 9
-Ainda com a lista da questão 7, mude:
-- O segundo item para a quarta posição
-- O quarto item para a sexta posição
-- O sexto item para a segunda posição
-E retorne a lista completa na variável "resultado09"
+/*
+Questão 3
 */
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+frutas[3] = "abacaxi"
+export const resposta03 = frutas
 
-/* Questão 10
-Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
-- O primeiro item da nova lista é o último da anterior
-- O segundo item da nova lista é o penúltimo da anterior
-- O terceiro item da nova lista é o antepenúltimo da anterior
+/*
+Questão 4
 */
-// Nova lista abaixo
+frutas[frutas.length] = "limão"
+export const resposta04 = frutas
 
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+/*
+Questão 5
+*/
+let temp = frutas[2]
+frutas[2] = frutas[5]
+frutas[5] = temp
 
+export const resposta05 = frutas
 
+/*
+Questão 6
+*/
+const numeros = [7, 2, 4, 9, 8, 6, 1]
+
+export const resposta06 = numeros[0] * numeros[numeros.length - 2]
+
+/*
+Questão 7
+Mover todos uma posição para frente e o último para o início
+*/
+let ultimo = numeros[numeros.length - 1]
+
+numeros[6] = numeros[5]
+numeros[5] = numeros[4]
+numeros[4] = numeros[3]
+numeros[3] = numeros[2]
+numeros[2] = numeros[1]
+numeros[1] = numeros[0]
+numeros[0] = ultimo
+
+export const resposta07 = numeros
+
+/*
+Questão 8
+Somar todos os valores e adicionar no final
+*/
+let soma =
+numeros[0] +
+numeros[1] +
+numeros[2] +
+numeros[3] +
+numeros[4] +
+numeros[5] +
+numeros[6]
+
+numeros[numeros.length] = soma
+
+export const resposta08 = numeros
+
+/*
+Questão 9
+Reorganizar posições conforme pedido
+*/
+let temp2 = numeros[1]
+let temp4 = numeros[3]
+let temp6 = numeros[5]
+
+numeros[3] = temp2
+numeros[5] = temp4
+numeros[1] = temp6
+
+export const resposta09 = numeros
+
+/*
+Questão 10
+Nova lista com últimos três itens
+*/
+const novaLista = [
+numeros[numeros.length - 1],
+numeros[numeros.length - 2],
+numeros[numeros.length - 3]
+]
+
+export const resposta10 = novaLista
