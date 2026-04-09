@@ -1,11 +1,11 @@
-Data de atualização: Dia 08/04/2026 às 14:12:00
+Data de atualização: Dia 09/04/2026 às 01:02:48
  
 
 | Aluno | Qtd. questões acertadas (de 17) | Nota total |
 |-------|---------------------------------|------------|
 | Abner Ferreira (abner-ferreira-nave) | 7 | 41.18 |
 | Amanda Vitória (amanda-vitoria-nave) | 0 | 0.00 |
-| Andrey Antonio (itzisnotavaliable) | 8 | 48.24 |
+| Andrey Antonio (itzisnotavaliable) | 19 | 100.00 |
 | Arthur Emanuel (arthur-emanuel-nave) | 0 | 0.00 |
 | Arthur Lucio (arthur-lucio-nave) | 24 | 100.00 |
 | Artur Jude (ArturJude) | 24 | 100.00 |
@@ -35,7 +35,7 @@ Data de atualização: Dia 08/04/2026 às 14:12:00
 | Luan Murilo (luan-murilo-nave) | 0 | 0.00 |
 | Marcus Vinícios (marcus-vinicios-nave) | 20 | 100.00 |
 | Mateus Antônio (mateusnave) | 24 | 100.00 |
-| Matheus Thiago (teteuzo) | 8 | 48.24 |
+| Matheus Thiago (teteuzo) | 19 | 100.00 |
 | Miguel Albuquerque (miguelalbuquerque492) | 24 | 100.00 |
 | Pedro Arthur (pedro-arthur-nave) | 0 | 0.00 |
 | Pedro Victor (pedro-victor-nave) | 24 | 100.00 |
